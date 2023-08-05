@@ -98,7 +98,7 @@ main {
 
 .section-title-p{font-weight: 500;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center}
 
 .about-info-container {
@@ -136,3 +136,18 @@ margin-bottom: 20px;
 
   .skill-description{color: #757575;}
 
+  /* Resume Section */
+
+  .section-title {margin-top: 130px}
+
+  .section-title{display: flex;}
+
+  .resume .title{font-weight: 700;
+    font-size: 26px; 
+  color: #474747;} 
+
+  .resume .sub-title{color: #757575;
+    font-weight: 600;
+font-size: 20px; }
+
+  .resume .description{color: #757575; }
