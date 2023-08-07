@@ -8,12 +8,14 @@
   background: #fff8f3;
   background-image: url(../style/header_bg.png), url(../style/developer.png);
   background-repeat: no-repeat;
-  background-position: right bottom, left;
-}
+  background-position: right bottom, left;  }
+
+  /* header and navigation  */
+
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 .nav-title {
   font-size: 45px;
