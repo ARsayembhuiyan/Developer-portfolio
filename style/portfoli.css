@@ -222,6 +222,7 @@ main {
   gap: 100px;
   background: #fff8f3;
   padding: 130px 200px;
+  text-decoration: none;
 }
 
 .resume-titl {
