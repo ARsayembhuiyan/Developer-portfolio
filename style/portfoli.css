@@ -5,7 +5,7 @@
 /* Header section */
 
 .header {
-  background: #fff8f3;
+   background: #fff8f3;
   background-image: url(../style/header_bg.png), url(../style/developer.png);
   background-repeat: no-repeat;
   background-position: right bottom, left;  }
@@ -30,11 +30,18 @@ nav ul {
   align-items: center;
 }
 
-.primary {
-  color: #fd6e0a;
-}
-
 .btn-primary {
+  background: #fd6e0a;
+color: #ffffff;
+text-decoration: none; border: 0;}
+
+
+
+.btn-primary-1{display: flex; gap: 20px;
+padding-top: 20px;
+} 
+
+ .btn-primary-2 {
   color: #ffffff;
   font-weight: 700;
   font-size: 20px;
@@ -42,7 +49,18 @@ nav ul {
   padding: 18px 35px;
   height: 64px;
   border-radius: 5px;
-  background: #fd6e0a;
+  background: #fd6e0a;} 
+
+
+.btn-primary-3{font-weight: 700;
+  font-size: 20px;
+  border: 1px solid;
+  padding: 18px 35px #fd6e0a;
+  height: 64px;
+  border-radius: 5px;
+color:#fd6e0a ;
+background: #fff8f3;
+box-shadow:  10px #fd6e0a;
 }
 
 .banner {
